@@ -86,7 +86,7 @@ public class HDFSClient {
         while (filelist.hasNext()){
             LocatedFileStatus locatedFileStatus = filelist.next();
             //查看文件名称、长度、块、权限
-            // 文件名称
+            // 文件名称git
             System.out.println("文件名：" + locatedFileStatus.getPath().getName());
             //文件长度
             System.out.println("文件大小：" + locatedFileStatus.getLen());
